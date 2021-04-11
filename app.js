@@ -1,9 +1,5 @@
 
-
-
-
-
-angular.module('Educa', ['google.spreadsheet.i18n.angular','ngSanitize','betsol.timeCounter','checklist-model','angularLazyImg'])
+angular.module('Educa', ['google.spreadsheet.i18n.angular','ngSanitize','betsol-timeCounter','checklist-model','angularLazyImg'])
   .controller('EducaController', function($scope,$compile,$http,$timeout, $interval, googleSpreadsheetI18nAngular) {
 
     $scope.getRandomInt = function(min, max) {
